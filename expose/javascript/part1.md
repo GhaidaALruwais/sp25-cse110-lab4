@@ -1,0 +1,7 @@
+1. What is printed by line 9? If the code returns an error, explain why. "values added: 20" 
+2. What is printed by line 13? If the code returns an error, explain why. "final result: 20"
+3. Why should you not use var? Explain why. Although line 13 is outside the block scope it can still access "result" because var is function-scoped which is why we shouldn't use it because it leads to unexpected behavior 
+4. What is printed by line 9? If the code returns an error, explain why. "values added: 20"
+5. What is printed by line 13? If the code returns an error, explain why. error because let is block scoped so the result variable is inaccessible outside the if block
+6. What is printed by line 9? If the code returns an error, explain why. it has an error by line 7 before line 9 because once you assign a value to const it can't be change. basically result is a constant at that point. 
+7. What is printed by line 13? If the code returns an error, explain why. it has an error by line 7 and it wont reach line 13 because once you assign a value to const it can't be change. basically result is a constant at that point. either ways const is a block scoped so if we didn't have an error in line 7 we still can't access it in line 13
